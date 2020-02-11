@@ -1,8 +1,13 @@
-function greeter(person: string) {
-    return "Hello, " + person;
+interface Person {
+    firstName: string;
+    lastName: string;
 }
 
-let user = [1, 2, 3];
+function greeter(person: Person) {
+    return "Hello, " + person.firstName + " " + person.lastName;
+}
 
-document.body.textContent = greeter();
+let user = { firstName: "Jane", lastName: "User" }
+
+document.body.textContent = greeter(user);
 
