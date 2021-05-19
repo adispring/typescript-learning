@@ -1,3 +1,10 @@
 {
-  "include": ["src/**/*", ".eslintrc.js"]
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "noImplicitAny": true,
+    "outDir": "./dist",
+    "sourceMap": true
+  },
+  "include": ["src/**/*"]
 }

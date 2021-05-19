@@ -228,6 +228,13 @@
   resolved "https://registry.npm.taobao.org/@types/parse-json/download/@types/parse-json-4.0.0.tgz#2f8bb441434d163b35fb8ffdccd7138927ffb8c0"
   integrity sha1-L4u0QUNNFjs1+4/9zNcTiSf/uMA=
 
+"@types/ramda@^0.27.40":
+  version "0.27.40"
+  resolved "https://registry.nlark.com/@types/ramda/download/@types/ramda-0.27.40.tgz#99f307356fe553095ee4d3c2af2b0eb3af7a8413"
+  integrity sha1-mfMHNW/lUwle5NPCrysOs696hBM=
+  dependencies:
+    ts-toolbelt "^6.15.1"
+
 "@typescript-eslint/eslint-plugin@^4.23.0":
   version "4.23.0"
   resolved "https://registry.nlark.com/@typescript-eslint/eslint-plugin/download/@typescript-eslint/eslint-plugin-4.23.0.tgz?cache=0&sync_timestamp=1621117791671&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40typescript-eslint%2Feslint-plugin%2Fdownload%2F%40typescript-eslint%2Feslint-plugin-4.23.0.tgz#29d3c9c81f6200b1fd6d8454cfb007ba176cde80"
@@ -2188,6 +2195,11 @@ quick-lru@^4.0.1:
   resolved "https://registry.npm.taobao.org/quick-lru/download/quick-lru-4.0.1.tgz?cache=0&sync_timestamp=1610610371237&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fquick-lru%2Fdownload%2Fquick-lru-4.0.1.tgz#5b8878f113a58217848c6482026c73e1ba57727f"
   integrity sha1-W4h48ROlgheEjGSCAmxz4bpXcn8=
 
+ramda@^0.27.1:
+  version "0.27.1"
+  resolved "https://registry.npm.taobao.org/ramda/download/ramda-0.27.1.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Framda%2Fdownload%2Framda-0.27.1.tgz#66fc2df3ef873874ffc2da6aa8984658abacf5c9"
+  integrity sha1-Zvwt8++HOHT/wtpqqJhGWKus9ck=
+
 react-is@^16.8.1:
   version "16.13.1"
   resolved "https://registry.nlark.com/react-is/download/react-is-16.13.1.tgz?cache=0&sync_timestamp=1621009723989&other_urls=https%3A%2F%2Fregistry.nlark.com%2Freact-is%2Fdownload%2Freact-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
@@ -2629,6 +2641,11 @@ trim-off-newlines@^1.0.0:
   version "1.0.1"
   resolved "https://registry.npm.taobao.org/trim-off-newlines/download/trim-off-newlines-1.0.1.tgz#9f9ba9d9efa8764c387698bcbfeb2c848f11adb3"
   integrity sha1-n5up2e+odkw4dpi8v+sshI8RrbM=
+
+ts-toolbelt@^6.15.1:
+  version "6.15.5"
+  resolved "https://registry.npm.taobao.org/ts-toolbelt/download/ts-toolbelt-6.15.5.tgz#cb3b43ed725cb63644782c64fbcad7d8f28c0a83"
+  integrity sha1-yztD7XJctjZEeCxk+8rX2PKMCoM=
 
 tsconfig-paths@^3.9.0:
   version "3.9.0"
