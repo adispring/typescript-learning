@@ -5,6 +5,8 @@
     "outDir": "./dist",
     "allowUnreachableCode": false,
     "allowUnusedLabels": false
+    // "exactOptionalPropertyTypes": true,
+    "noFallthroughCasesInSwitch": true
   },
   "include": ["src/**/*"]
 }
