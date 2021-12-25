@@ -1,2 +1,4 @@
+// import { identity } from './generic';
+
 const a = 'h';
-console.log(a);
+// identity(a);

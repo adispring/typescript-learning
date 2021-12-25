@@ -1,5 +1,7 @@
 {
+  "extends": "./configs/base.json",
   "compilerOptions": {
+    "module": "commonjs",
     "outDir": "./dist"
   },
   "include": ["src/**/*"]
