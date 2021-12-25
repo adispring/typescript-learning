@@ -4,15 +4,15 @@ module.exports = {
   },
   root: true,
   extends: [
-    'eslint:recommended',
-    'plugin:@typescript-eslint/recommended',
-    'plugin:import/typescript', // this line does the trick
-    'prettier',
+    // 'eslint:recommended',
+    // 'plugin:@typescript-eslint/recommended',
+    // 'plugin:import/typescript', // this line does the trick
+    // 'prettier',
   ],
-  rules: {
-    '@typescript-eslint/no-unused-vars': [
-      'error',
-      { args: 'after-used', ignoreRestSiblings: true, argsIgnorePattern: '^_' },
-    ],
-  },
+  // rules: {
+  //   '@typescript-eslint/no-unused-vars': [
+  //     'error',
+  //     { args: 'after-used', ignoreRestSiblings: true, argsIgnorePattern: '^_' },
+  //   ],
+  // },
 };

@@ -2,7 +2,9 @@
   "extends": "./configs/base.json",
   "compilerOptions": {
     "module": "commonjs",
-    "outDir": "./dist"
+    "outDir": "./dist",
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false
   },
   "include": ["src/**/*"]
 }
