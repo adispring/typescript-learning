@@ -4,9 +4,14 @@
     "module": "commonjs",
     "outDir": "./dist",
     "allowUnreachableCode": false,
-    "allowUnusedLabels": false
+    "allowUnusedLabels": false,
     // "exactOptionalPropertyTypes": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noImplicitOverride": true,
+    "noImplicitThis": true,
+    "useUnknownInCatchVariables": true,
+    "declaration": true
   },
   "include": ["src/**/*"]
 }
