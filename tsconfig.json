@@ -5,12 +5,10 @@
     "outDir": "./dist",
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
-    // "exactOptionalPropertyTypes": true,
+    "exactOptionalPropertyTypes": true,
     "noFallthroughCasesInSwitch": true,
     "noImplicitAny": true,
-    "noImplicitOverride": true,
     "noImplicitThis": true,
-    "useUnknownInCatchVariables": true,
     "declaration": true
   },
   "include": ["src/**/*"]

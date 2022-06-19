@@ -34,7 +34,7 @@
     "lint-staged": "10.5.4",
     "prettier": "^2.3.0",
     "ts-node": "^9.1.1",
-    "typescript": "^4.2.4",
+    "typescript": "^4.7.4",
     "validate-branch-name": "^1.0.6"
   },
   "dependencies": {

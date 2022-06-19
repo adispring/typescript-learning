@@ -3,7 +3,7 @@
 // const a = 'h';
 // identity(a);
 
-function fn(n: number) {
+function fn1(n: number) {
   if (n > 5) {
     return true;
   } else {
@@ -54,20 +54,20 @@ class Album {
 }
 
 class SharedAlbum extends Album {
-  override download() {
-    // Override to get info from many sources
-  }
+  // override download() {
+  //   // Override to get info from many sources
+  // }
 }
 
 class Rectangle {
   width: number;
   height: number;
- 
+
   constructor(width: number, height: number) {
     this.width = width;
     this.height = height;
   }
- 
+
   getAreaFunction() {
     return function () {
       return this.width * this.height;
@@ -77,7 +77,7 @@ class Rectangle {
 
 const createKeyboard = (modelID: number) => {
   const defaultModelID = 23;
-  return { type: "keyboard", modelID };
+  return { type: 'keyboard', modelID };
 };
 
 try {
@@ -86,6 +86,6 @@ try {
   // We have to verify err is an
   // error before using it as one.
   // if (err instanceof Error) {
-    console.log(err.message);
+  console.log(err.message);
   // }
 }
